@@ -55,10 +55,6 @@ main{
     padding:5%;
 }
 
-.img1{
-    display: block !important;
-}
-
 .priceBtn{
     display: flex;
     justify-content: space-between;
@@ -88,3 +84,19 @@ footer h2{
     color: #e0046c;
 }
 
+.section2{
+    display: none !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .section1{
+        display: none !important;
+    }
+    .section2{
+        margin: 0 !important;
+        display: flex !important;
+    }
+    .face{
+        width: 90%;
+    }
+}
