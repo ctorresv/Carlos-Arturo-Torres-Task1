@@ -88,6 +88,31 @@ footer h2{
     display: none !important;
 }
 
+.mainContact{
+    border: 2px solid #e0046c;
+    border-radius:4px;
+    box-shadow: 2px 2px 10px 2px #e0046c;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.maindetail{
+    height: 80%;
+    width: 70% ;
+}
+
+.cardcont{
+    padding: 2rem;
+    height: 50vh;
+    border-radius:4px;
+    box-shadow: 2px 2px 10px 2px #0a0809;
+}
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .section1{
         display: none !important;
